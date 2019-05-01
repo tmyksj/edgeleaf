@@ -1,0 +1,28 @@
+a {
+    color: #0d47a1;
+}
+
+body {
+    color: #212121;
+    margin: 0 auto;
+    max-width: 80rem;
+}
+
+header {
+    border-bottom: thin solid #9e9e9e;
+    display: flex;
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    border-top: thin solid #9e9e9e;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0 0.5rem;
+    padding-top: 0.5rem;
+}
