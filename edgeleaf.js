@@ -25,8 +25,7 @@
             .replace(document.baseURI, "")
             .replace(document.location.hash, "")
             .replace(document.location.search, "")
-            .replace(/\.\w*$/, "")
-            .replace(/(^|\/)(\w+)$/, "$1$2/");
+            .replace(/(^|\/)([^/]+)$/, "$1$2/");
     };
 
     const configRoot = () => {
